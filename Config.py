@@ -43,6 +43,6 @@ else:
     grp = False
 
 GRPPLAY = grp
-bot = Client(SESSION_NAME, API_ID, API_HASH, plugins=dict(root="HellMusic"))
+bot = Client(BOT_TOKEN, API_ID, API_HASH, plugins=dict(root="HellMusic"))
 semx = PyTgCalls(bot)
 
